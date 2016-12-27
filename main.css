@@ -1,0 +1,11 @@
+#logo {
+	width: 520px;
+	height: 70px;
+	margin: 100px 90px;
+}
+
+h1, label {
+    color: darkorange;
+    font-family: cursive;
+}
+
