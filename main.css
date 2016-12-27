@@ -4,8 +4,35 @@
 	margin: 100px 90px;
 }
 
-h1, label {
+h1, label, h4 {
     color: darkorange;
     font-family: cursive;
 }
 
+button, input {
+  font-family : inherit;
+  font-size   : 100%;
+}
+
+button {
+  position     : absolute;
+  left         : 250px;
+  top          : 180px;
+
+  padding      : 11px;
+
+  font         : bold 2em sans-serif;
+  border       : 2px solid #333;
+  border-radius: 5px;
+  background   : none;
+
+  cursor       : pointer;
+}
+
+
+button:hover,
+button:focus {
+  outline   : none;
+  background: white;
+  color   : darkorange;
+}
